@@ -111,6 +111,15 @@ header nav ul li a:hover{
     width: 700px;
 }
 
+fieldset {
+    width: 60%;
+    padding: 10px 0 20px;
+    margin-left: 10px;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    padding: 20px;
+}
+
 .formulario {
     border-radius: 5px;
     border-color: #39c;
@@ -261,49 +270,4 @@ footer ul {
         margin: 0;
         padding: 0;
     }
-}
-           
-/* Itens do formulário */
-fieldset {
-    width: 60%;
-    padding: 10px 0 20px;
-    margin-left: 10px;
-    border: 2px solid lightblue;
-    border-radius: 10px;
-    padding: 20px;
-}
-           
-.agrupamento {
-    display: flex;
-    flex-direction: column; flex-direction: column;
-}
-           
-.agrupamento-botao {
-    padding-top: 10px;
-}
-            
-.entrada {
-    font-family: inherit;
-    line-height: 1.15;
-    border: 2px solid lightblue;
-    border-radius: 10px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 10px;
-}
-            
-.entrada:focus {
-    outline: none;
-    box-shadow: 0 0 0 0.2rem rgb(173, 216, 230, 0.5);
-}
-            
-.entrada.mensagem {
-    resize: none;
-}
-            
-.rotulo {
-    padding-bottom: 2.5px;
-    padding-top: 20px;
-    font-weight: 600;
 }
